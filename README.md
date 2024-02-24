@@ -4,13 +4,13 @@
 
 aka PowerShell App Deployment Toolkit
 
-It is an open-source software that provides a set of funtions to perform installation and/or deployment on common applications in a cooperate environment. It can be customize for personal usage too.
+It is an open-source software that provides a set of funtions to perform installation and/or deployment on common applications in a corporate environment. It can be customize for personal usage too.
 
 ---
 
 ### Why use PSADT?
 
-This app helps to install multiple software automatically via using PowerShell. It ease having the need of manual installation or when cloning of PC is not an option.
+This app helps to install multiple softwares automatically via using PowerShell. It ease having the need of manual installation or when cloning of PC is not an option.
 
 ---
 
@@ -18,17 +18,17 @@ This app helps to install multiple software automatically via using PowerShell. 
 
 ![folderStructure](https://github.com/eggOnion/Software-Automate-Installer-via-PSADT/blob/main/imageSource/folderStructure.png?raw=true)
 
-- **AppDeployToolkit:** Contain the image of your "Company banner." It contains some logic for the program and setting the directory path to the `Logs` folder is inside - `AppDeployToolkitConfig.xml`
+- **AppDeployToolkit:** Contain the image of your "Company banner." It contains some logic for the program and also the config file to set the directory path to the `Logs` folder is inside `AppDeployToolkitConfig.xml`
 
-- **Files:** It contains all the softwares that you wanted to install.
+- **Files:** Place all the softwares that you want to install into this folder.
 
 - **Logs:** It contains the log information once the app finished running.
 
-- **Deploy-Application.exe:** The exe file that will execute the application to install all your softwares.
+- **Deploy-Application.exe:** The exe file that will execute this application to install all your softwares.
 
 - **Deploy-Application.exe.config:** Keep it as it is.
 
-- **Deploy-Application.ps1** Probably the most IMPORTANT part of the whole application where all the logic resides. It defines how your softwares are going to be installed, give permission to folders, set registry key, import certificates & etc...
+- **Deploy-Application.ps1** Probably the most IMPORTANT part of the whole application where all the logic reside. It defines how your softwares are going to be installed, give permission to folders, set registry key, set environment variable, import certificates & etc...
 
   ***
 
@@ -36,20 +36,20 @@ This app helps to install multiple software automatically via using PowerShell. 
 
 **The functions used in this application are:**
 
-| Function                              | Description                             |
-| ------------------------------------- | --------------------------------------- |
-| Show-InstallationProgress             | Display message on the dialog box       |
-| Test-Path                             | To locate in a directory path           |
-| Execute-Process                       | Execute a msi file to run               |
-| Remove-File                           | Delete an existing folder               |
-| Set-RegistryKey                       | Create a new registry entries           |
-| Test-Path                             | To locate in a directory path           |
-| Execute-Process                       | Execute a msi file to run               |
-| Remove-File                           | Delete an existing folder               |
-| Set-ItemPermission                    | Give some permission to a certan folder |
-| [Environment]::SetEnvironmentVariable | Set Environment variables in Windows    |
-| Start-ServiceAndDependencies          | Start a certain service                 |
-| Import-Certificate                    | Import a certificate                    |
+| Function                              | Description                          |
+| ------------------------------------- | ------------------------------------ |
+| Show-InstallationProgress             | Display message on the dialog box    |
+| Test-Path                             | To locate in a directory path        |
+| Execute-Process                       | Execute a msi file to run            |
+| Remove-File                           | Delete an existing folder            |
+| Set-RegistryKey                       | Create a new registry entries        |
+| Test-Path                             | To locate in a directory path        |
+| Execute-Process                       | Execute a msi file to run            |
+| Remove-File                           | Delete an existing folder            |
+| Set-ItemPermission                    | Give permission rights to a folder   |
+| [Environment]::SetEnvironmentVariable | Set Environment variables in Windows |
+| Start-ServiceAndDependencies          | Start a certain service              |
+| Import-Certificate                    | Import a certificate                 |
 
 **Placeholder that was used - Pls replaced it accordingily**
 
@@ -87,5 +87,5 @@ Try not to change the folder structure, especially the `Files` folder. The varia
 
 ### References
 
-[Github](https://github.com/PSAppDeployToolkit/PSAppDeployToolkit)
+[Github](https://github.com/PSAppDeployToolkit/PSAppDeployToolkit)<br/>
 [Documentation](https://psappdeploytoolkit.com/docs/)

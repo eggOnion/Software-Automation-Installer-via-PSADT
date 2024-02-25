@@ -38,27 +38,27 @@ This app helps to install multiple softwares automatically via using PowerShell.
 
 | Function                              | Description                          |
 | ------------------------------------- | ------------------------------------ |
-| Show-InstallationProgress             | Display message on the dialog box    |
-| Test-Path                             | To locate in a directory path        |
-| Execute-Process                       | Execute a msi file to run            |
-| Remove-File                           | Delete an existing folder            |
-| Set-RegistryKey                       | Create a new registry entries        |
-| Test-Path                             | To locate in a directory path        |
-| Execute-Process                       | Execute a msi file to run            |
-| Remove-File                           | Delete an existing folder            |
-| Set-ItemPermission                    | Give permission rights to a folder   |
-| [Environment]::SetEnvironmentVariable | Set Environment variables in Windows |
-| Start-ServiceAndDependencies          | Start a certain service              |
-| Import-Certificate                    | Import a certificate                 |
+| `Show-InstallationProgress`             | Display message on the dialog box    |
+| `Test-Path`                             | To locate in a directory path        |
+| `Execute-Process`                       | Execute a msi file to run            |
+| `Remove-File`                           | Delete an existing folder            |
+| `Set-RegistryKey`                       | Create a new registry entries        |
+| `Test-Path`                             | To locate in a directory path        |
+| `Execute-Process`                       | Execute a msi file to run            |
+| `Remove-File`                           | Delete an existing folder            |
+| `Set-ItemPermission`                    | Give permission rights to a folder   |
+| `[Environment]::SetEnvironmentVariable` | Set Environment variables in Windows |
+| `Start-ServiceAndDependencies`          | Start a certain service              |
+| `Import-Certificate`                    | Import a certificate                 |
 
 **Placeholder that was used - Pls replaced it accordingily**
 
 | Placeholder       | Description               |
 | ----------------- | ------------------------- |
-| YourFolderPath    | The path to that folder   |
-| YourExistingApp_1 | The name of your app      |
-| folderName_1      | The name of your folder   |
-| software_1        | The name of your software |
+| `YourFolderPath`    | The path to that folder   |
+| `YourExistingApp_1` | The name of your app      |
+| `folderName_1`      | The name of your folder   |
+| `software_1`        | The name of your software |
 
 ![setPathToLogsFolder](https://github.com/eggOnion/Software-Automate-Installer-via-PSADT/blob/main/imageSource/setPathToLogsFolder.png?raw=true)
 
